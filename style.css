@@ -1,0 +1,55 @@
+* {
+    margem :  0 ;
+    preenchimento :  0 ;
+    dimensionamento da caixa : caixa de borda;
+}
+
+corpo {
+    cor de fundo : fumaça branca;
+    preenchimento :  90 px  0 ;
+}
+
+. calculadora {
+    largura :  400 px ;
+    margem :  0 automático;
+    cor de fundo :  # FBAB18 ;
+    preenchimento :  20 px ;
+    raio da borda :  5 px ;
+    sombra da caixa :  0  0  15 px preto;
+}
+
+. display {
+    display : flex;
+    justify-content : flex-end;
+    largura :  100 % ;
+    altura :  100 px ;
+    margem inferior :  20 px ;
+    preenchimento :  15 px ;
+    cor de fundo : preto;
+    cor : branco;
+    fonte : normal 4 rem serif;
+    estouro : oculto;
+    raio da borda :  5 px ;
+}
+
+. botões da calculadora {
+    display : grade;
+    colunas-modelo de grade :  1 fr  1 fr  1 fr  1 fr ;
+    intervalo de grade :  10 px ;
+}
+
+. botão da calculadora  {
+    cor de fundo : preto;
+    cor : branco;
+    preenchimento :  20 px ;
+    raio da borda :  5 px ;
+    tamanho da fonte :  1,5 rem ;
+    esboço : nenhum;
+    cursor : ponteiro;
+    borda :  2 px totalmente preto;
+}
+
+botão : hover {
+    cor de fundo :  # FBAB18 ;
+    cor : preto;
+} 
